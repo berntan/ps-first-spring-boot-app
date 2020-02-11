@@ -26,6 +26,10 @@ Note: This stores the data inside the container - when you delete the container,
 
 ## Application Database Setup
 
+Connect to the Database:
+
+    $ psql -h localhost -p 5432 -U postgres -W
+
 Create the Database:
 
     psql> create database conference_app;
